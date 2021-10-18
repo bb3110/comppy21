@@ -9,6 +9,5 @@ def square(x):
 
 
 if __name__ == "__main__":
-    # print(sys.argv)
     x = int(sys.argv[1])
     print(square(x))
