@@ -7,8 +7,8 @@ def square(x, c=CONST):
     x2 = c * x * x
     return x2
 
-def cube(x):
-    x3 = CONST * x ** 3
+def cube(x, const=CONST):
+    x3 = const * x ** 3
     return x3
 
 
