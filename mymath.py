@@ -3,11 +3,15 @@ import sys
 CONST = 2
 
 
-def square(x):
-    x2 = CONST * x * x
+def square(x, c=CONST):
+    x2 = c * x * x
     return x2
 
 
 if __name__ == "__main__":
-    x = int(sys.argv[1])
-    print(square(x))
+    if len(sys.argv) > 1:
+        x = int(sys.argv[1])
+        print(square(x))
+        print(square(x, c=4))
+    else:
+        print("Usage: python mymath.py arg")
