@@ -7,6 +7,11 @@ def square(x, c=CONST):
     x2 = c * x * x
     return x2
 
+def cube(x):
+    x3 = CONST * x ** 3
+    return x3
+
+
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
