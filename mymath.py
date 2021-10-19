@@ -4,7 +4,13 @@ CONST = 2
 
 
 def square(x, c=CONST):
-    x2 = c * x * x
+    """
+    Calculate c*x**2
+
+    >>> square(2)
+    8
+    """
+    x2 =  c * x * x
     return x2
 
 
