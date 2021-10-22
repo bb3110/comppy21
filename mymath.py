@@ -2,7 +2,6 @@ import sys
 
 CONST = 2
 
-
 def square(x, c=CONST):
     """
     Calculate c*x**2
@@ -10,7 +9,7 @@ def square(x, c=CONST):
     >>> square(2)
     8
     """
-    x2 =  c * x * x
+    x2 = c * x * x
     return x2
 
 
