@@ -2,3 +2,6 @@ venv
 .ipynb*
 *.pyc
 .vscode
+htmlcov
+.coverage
+*.lprof
